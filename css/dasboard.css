@@ -1,0 +1,28 @@
+.sidebar{
+    background-color: #0D0D0D;  
+    border: 0;
+}
+.main-panel .content{
+    margin-top: 0;
+}
+.sidebar .scrollbar-inner{
+    padding-top: 0;
+}
+.sidebar div h4{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.sidebar div .nav{
+margin-top: -3px;
+}
+.warna{
+    background-color: #0D0D0D;  
+}
+.nav .logout{
+    margin-top: 70%;
+}
+
+.scrollbar-inner .nav .nav-item a{
+    text-decoration: none;
+    list-style: none;
+}

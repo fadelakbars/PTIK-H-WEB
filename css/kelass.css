@@ -1,0 +1,432 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+}
+
+/* navbar       navbar      navbar */
+.navbar{
+    background-color: #141414;
+    /* padding: 10px; */
+    width: 100%;
+}
+.navbar-expand-lg{
+    position: fixed;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+.navbar-brand{
+    color: white;
+    font-family: 'Red Rose', serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+.navbar-brand{
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 27px;
+}
+.navbar-nav a {
+    margin-left: 60px;
+    color: white;
+    font-family: 'Red Rose', serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+.navbar-brand:hover{
+    color: #E50000;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.navbar-nav .nav-link{
+    font-size: 18px;
+}
+.navbar-nav a:hover {
+    color: #E50000;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+/* home     home    home    home */
+.hero{
+    padding-top: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.begrond{
+    color: white;
+    background-image: url(../img/img2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10px;
+    padding-inline: 0;
+    height: fit-content;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.home{
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient(0deg, #141414 0%, rgba(0,212,255,0) 100%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.home .btn{
+    margin-bottom: 50px;
+    color: #ffffff;
+    background-color: #E50000;
+}
+.hai{
+    padding-top: 280px;
+}
+
+/* beranda    beranda     beranda     beranda */
+.beranda{
+    color: white;
+    margin-top: 40px;
+    padding-inline: 50px;
+    margin-bottom: 20px;
+}
+
+/* tentang      tentang     tentang      tentang  */
+.beranda .row .col-8 .tentang{
+    background-color: #1A1A1A;
+    padding: 25px;
+    margin-bottom: 13px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.tentang h5,
+.detail h5,
+.matkul h5,
+.member h5{
+    font-size: 20px;
+    color: #999999;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* member    member      member      member */
+.beranda .row .col-8 .member{
+    background-color: #1A1A1A;
+    padding: 25px;
+    margin-bottom: 13px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+
+}
+
+.member .slideslide .carouselExampleAutoplaying{
+    position: relative;
+}
+
+.card-img{
+    width: 65px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 50%  ;
+    -webkit-border-radius: 50%  ;
+    -moz-border-radius: 50%  ;
+    -ms-border-radius: 50%  ;
+    -o-border-radius: 50%  ;
+}
+
+.card1.swiper-slide{
+    width: 90px;
+}
+.card1.swiper-slide {
+    width: 150px; /* Ganti dengan lebar yang diinginkan */
+    border: 0px;
+    margin-right: 20px;
+}
+.card1{
+    width: 50px;
+    padding: 10px;
+    display: inline;
+    color: white;
+    background-color: #0D0D0D;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.card-body{
+    margin: 0;
+    padding: 0;
+}
+.member a{
+    /* background-color: #E50000; */
+    color: white;
+    margin-top: 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+/* .carousel-inner .bagian1{
+    display: inline-flexbox;
+} */
+/* detail tugas      detail tugas       detail tugas */
+.beranda .row .col-8 .detail{
+    background-color: #1A1A1A;
+    padding: 25px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.kotakDetail{
+    background-color: #141414;
+    padding: 100px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.kotakDetail h6{
+    color: #999999;
+    height: fit-content;
+}
+
+/* sosmed    sosmed      sosmed      sosmed */
+.sosmed{
+    background-color: #1A1A1A;
+    padding: 20px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.beranda .row .col-4{
+    padding-right: 20px;
+    padding-left: 0;
+}
+.sosmed h5{
+    font-size: 20px;
+    color: #999999;
+    margin-bottom: 25px;
+}
+.akun .card-body{
+    display: inline-block;
+}
+.akun{
+    display: flex;
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+}
+.body1{
+    margin-left: 25px;
+}
+.body2{
+    margin-right: 25px;
+}
+.card-body h6{
+    margin-top: 20px;
+}
+.card-body h6 a{
+    text-decoration: none;
+    color: white;
+}
+.matkul{
+    background-color: #1A1A1A;
+    padding: 25px;
+    margin-top: 13px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.matkul h5{
+    color: #999999;
+    margin-bottom: 15px;
+}
+.listmat{
+    background-color: #0D0D0D;
+    margin-bottom: 15px;
+    list-style: none;
+    padding: 7px;
+    padding-left: 13px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.listmat p{
+    margin: 0;
+    font-size: 13px;
+    color: #999999;
+}
+.listmat h6{
+    /* margin: 0; */
+    font-size: 16px;
+}
+
+/* galeri    galeri      galeri      galeri  */
+.galeri{
+    background-color: #1A1A1A;
+    padding: 25px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.galeri h4{
+    color: #999999;
+}
+.gambar1{
+    width: 47%;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.gambar2{
+    width: 23%;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* footer    footer      footer  */
+.footer{
+    background-color: #1A1A1A;
+    color: white;
+    padding-top: 20px;
+    margin-top: 10px;
+    border-top: #ffffff 2px solid;
+    padding-inline: 15px;
+    /* padding-top: 10px; */
+    display: inline-flex;
+    justify-content: space-between;
+}
+.kelompok{
+    color: #999999;
+    margin-left: 50px;
+    /* line-height: 20px; */
+    line-height: 20px;
+}
+.developer{
+    margin-right: 50px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #999999;
+}
+
+/* card slider */
+.slide-container {
+margin: 10px;
+overflow: hidden;
+}
+.card {
+/* background: #fff; */
+border-radius: 8px;
+}
+.card .image-box {
+height: 200px;
+}
+.card .image-box img {
+width: 100%;
+height: 100%;
+border-radius: 8px 8px 0 0;
+}
+.card .profile-details {
+display: flex;
+align-items: center;
+column-gap: 12px;
+padding: 15px;
+}
+.card .profile-details img {
+height: 40px;
+width: 40px;
+border-radius: 50%;
+}
+.profile-details .name {
+font-size: 15px;
+font-weight: 500;
+}
+.profile-details .job {
+font-size: 12px;
+font-weight: 500;
+color: #4d4d4d;
+}
+.swiper-navBtn {
+color: #001aff;
+height: 40px;
+width: 40px;
+/* background: #fff; */
+border-radius: 50%;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+font-size: 18px;
+}
+.swiper-pagination-bullet {
+background-color: #000;
+}
+@media screen and (max-width: 768px) {
+.swiper-navBtn {
+    display: none;
+}
+}
+
+#carouselExampleIndicators {
+    position: relative;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 6%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    z-index: 1;
+}
+
+.carousel-control-prev {
+    left: 20;
+}
+
+.carousel-control-next {
+    right: 10;
+}
+
